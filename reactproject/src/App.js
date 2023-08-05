@@ -1,5 +1,8 @@
-import logo from './logo.svg';
+
+import logo from './new.jpeg';
 import './App.css';
+
+
 
 function App() {
   return (
@@ -17,7 +20,7 @@ function App() {
         </ul>
         </div >
         <div>
-          {/* <img src ={require('dhanush/public/download (2).jpeg')} alt ='profile'></img> */}
+          <img id="img" src ={logo} alt ='profile'></img>
         </div>
         <div className='content'>
             <ol>

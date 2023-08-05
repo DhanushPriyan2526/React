@@ -66,8 +66,11 @@ p{
 .flexbox {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
-
+.content {
+  font-size: 50px ;
+}
 }
 .box {
   display: grid;
@@ -85,13 +88,13 @@ p{
   display: flex;
   flex-flow: row wrap  ;
   gap: 10px;
-  justify-content: start;
+  justify-content: center;
   
   
 }
 .whole-flex > .new-box{
   background-color: rgb(189, 189, 189);
-  flex-basis: 300px;
+  flex-basis: 200px;
 }
 .content {
   background-color: aliceblue;
@@ -99,4 +102,9 @@ p{
   max-width: 400px;
   padding: 0px;
 
+}
+#img {
+  float: right;
+  height: 300px;
+  margin-right: 200px;
 }
